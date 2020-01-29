@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:background="#E0DCDC"
+        android:id="@+id/imageView"
+        android:layout_width="423dp"
+        android:layout_height="550dp"
+        android:layout_marginBottom="181dp"
+        android:layout_alignParentTop="true"/>
+    <EditText
+        android:id="@+id/edittext_qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:hint="Set Text to Generate QR Code"
+        android:imeActionId="4"
+        android:imeOptions="actionSend"
+        >
+    </EditText>
+</RelativeLayout>
